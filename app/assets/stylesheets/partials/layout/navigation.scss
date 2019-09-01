@@ -1,0 +1,14 @@
+
+.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+  background: $navbarColor !important;
+  border: none;
+  a {
+    color: white !important;
+  }
+}
+#navbar-logo {
+  height: auto; 
+  width: auto; 
+  max-width: 80px; 
+  max-height: 80px;
+}
