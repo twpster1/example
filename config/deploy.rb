@@ -8,16 +8,13 @@ set :application, "example"
 set :deploy_to, -> { "/var/www/#{fetch(:application)}_#{fetch(:stage)}" }
 
 # capistrano will download an app from "master" branch of this repository:
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@example.com:twpster/example.git"
 
 # change to ruby version you need
 set :rbenv_ruby, '2.6.2p47'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
-
-# Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
